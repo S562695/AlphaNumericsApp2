@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		063253F32B6B031000E99423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063253F22B6B031000E99423 /* AppDelegate.swift */; };
+		063253F52B6B031000E99423 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063253F42B6B031000E99423 /* SceneDelegate.swift */; };
+		063253FA2B6B031000E99423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 063253F82B6B031000E99423 /* Main.storyboard */; };
+		063253FC2B6B031100E99423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 063253FB2B6B031100E99423 /* Assets.xcassets */; };
+		063253FF2B6B031100E99423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 063253FD2B6B031100E99423 /* LaunchScreen.storyboard */; };
+		0632540A2B6B031100E99423 /* AllamAlphaNumericFunAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063254092B6B031100E99423 /* AllamAlphaNumericFunAppTests.swift */; };
+		063254142B6B031100E99423 /* AllamAlphaNumericFunAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063254132B6B031100E99423 /* AllamAlphaNumericFunAppUITests.swift */; };
+		063254162B6B031100E99423 /* AllamAlphaNumericFunAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063254152B6B031100E99423 /* AllamAlphaNumericFunAppUITestsLaunchTests.swift */; };
+		067C9FA02B6B2E3A003FD18C /* AlphaNumericFunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067C9F9F2B6B2E3A003FD18C /* AlphaNumericFunVC.swift */; };
+		067C9FA32B6B3A1D003FD18C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 067C9FA22B6B3A1D003FD18C /* Lottie */; };
+		067C9FA62B6C6A10003FD18C /* AnimatedGradientView in Frameworks */ = {isa = PBXBuildFile; productRef = 067C9FA52B6C6A10003FD18C /* AnimatedGradientView */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		063254062B6B031100E99423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 063253E72B6B031000E99423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 063253EE2B6B031000E99423;
+			remoteInfo = AllamAlphaNumericFunApp;
+		};
+		063254102B6B031100E99423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 063253E72B6B031000E99423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 063253EE2B6B031000E99423;
+			remoteInfo = AllamAlphaNumericFunApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		063253EF2B6B031000E99423 /* AllamAlphaNumericFunApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllamAlphaNumericFunApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		063253F22B6B031000E99423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		063253F42B6B031000E99423 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		063253F92B6B031000E99423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		063253FB2B6B031100E99423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		063253FE2B6B031100E99423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		063254002B6B031100E99423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		063254052B6B031100E99423 /* AllamAlphaNumericFunAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllamAlphaNumericFunAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		063254092B6B031100E99423 /* AllamAlphaNumericFunAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllamAlphaNumericFunAppTests.swift; sourceTree = "<group>"; };
+		0632540F2B6B031100E99423 /* AllamAlphaNumericFunAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllamAlphaNumericFunAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		063254132B6B031100E99423 /* AllamAlphaNumericFunAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllamAlphaNumericFunAppUITests.swift; sourceTree = "<group>"; };
+		063254152B6B031100E99423 /* AllamAlphaNumericFunAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllamAlphaNumericFunAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		067C9F9F2B6B2E3A003FD18C /* AlphaNumericFunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaNumericFunVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		063253EC2B6B031000E99423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067C9FA62B6C6A10003FD18C /* AnimatedGradientView in Frameworks */,
+				067C9FA32B6B3A1D003FD18C /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		063254022B6B031100E99423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0632540C2B6B031100E99423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		063253E62B6B031000E99423 = {
+			isa = PBXGroup;
+			children = (
+				063253F12B6B031000E99423 /* AllamAlphaNumericFunApp */,
+				063254082B6B031100E99423 /* AllamAlphaNumericFunAppTests */,
+				063254122B6B031100E99423 /* AllamAlphaNumericFunAppUITests */,
+				063253F02B6B031000E99423 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		063253F02B6B031000E99423 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				063253EF2B6B031000E99423 /* AllamAlphaNumericFunApp.app */,
+				063254052B6B031100E99423 /* AllamAlphaNumericFunAppTests.xctest */,
+				0632540F2B6B031100E99423 /* AllamAlphaNumericFunAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		063253F12B6B031000E99423 /* AllamAlphaNumericFunApp */ = {
+			isa = PBXGroup;
+			children = (
+				063253F22B6B031000E99423 /* AppDelegate.swift */,
+				063253F42B6B031000E99423 /* SceneDelegate.swift */,
+				063253F82B6B031000E99423 /* Main.storyboard */,
+				067C9F9F2B6B2E3A003FD18C /* AlphaNumericFunVC.swift */,
+				063253FB2B6B031100E99423 /* Assets.xcassets */,
+				063253FD2B6B031100E99423 /* LaunchScreen.storyboard */,
+				063254002B6B031100E99423 /* Info.plist */,
+			);
+			path = AllamAlphaNumericFunApp;
+			sourceTree = "<group>";
+		};
+		063254082B6B031100E99423 /* AllamAlphaNumericFunAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				063254092B6B031100E99423 /* AllamAlphaNumericFunAppTests.swift */,
+			);
+			path = AllamAlphaNumericFunAppTests;
+			sourceTree = "<group>";
+		};
+		063254122B6B031100E99423 /* AllamAlphaNumericFunAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				063254132B6B031100E99423 /* AllamAlphaNumericFunAppUITests.swift */,
+				063254152B6B031100E99423 /* AllamAlphaNumericFunAppUITestsLaunchTests.swift */,
+			);
+			path = AllamAlphaNumericFunAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		063253EE2B6B031000E99423 /* AllamAlphaNumericFunApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 063254192B6B031100E99423 /* Build configuration list for PBXNativeTarget "AllamAlphaNumericFunApp" */;
+			buildPhases = (
+				063253EB2B6B031000E99423 /* Sources */,
+				063253EC2B6B031000E99423 /* Frameworks */,
+				063253ED2B6B031000E99423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AllamAlphaNumericFunApp;
+			packageProductDependencies = (
+				067C9FA22B6B3A1D003FD18C /* Lottie */,
+				067C9FA52B6C6A10003FD18C /* AnimatedGradientView */,
+			);
+			productName = AllamAlphaNumericFunApp;
+			productReference = 063253EF2B6B031000E99423 /* AllamAlphaNumericFunApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		063254042B6B031100E99423 /* AllamAlphaNumericFunAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0632541C2B6B031100E99423 /* Build configuration list for PBXNativeTarget "AllamAlphaNumericFunAppTests" */;
+			buildPhases = (
+				063254012B6B031100E99423 /* Sources */,
+				063254022B6B031100E99423 /* Frameworks */,
+				063254032B6B031100E99423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				063254072B6B031100E99423 /* PBXTargetDependency */,
+			);
+			name = AllamAlphaNumericFunAppTests;
+			productName = AllamAlphaNumericFunAppTests;
+			productReference = 063254052B6B031100E99423 /* AllamAlphaNumericFunAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0632540E2B6B031100E99423 /* AllamAlphaNumericFunAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0632541F2B6B031100E99423 /* Build configuration list for PBXNativeTarget "AllamAlphaNumericFunAppUITests" */;
+			buildPhases = (
+				0632540B2B6B031100E99423 /* Sources */,
+				0632540C2B6B031100E99423 /* Frameworks */,
+				0632540D2B6B031100E99423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				063254112B6B031100E99423 /* PBXTargetDependency */,
+			);
+			name = AllamAlphaNumericFunAppUITests;
+			productName = AllamAlphaNumericFunAppUITests;
+			productReference = 0632540F2B6B031100E99423 /* AllamAlphaNumericFunAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		063253E72B6B031000E99423 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					063253EE2B6B031000E99423 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					063254042B6B031100E99423 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 063253EE2B6B031000E99423;
+					};
+					0632540E2B6B031100E99423 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 063253EE2B6B031000E99423;
+					};
+				};
+			};
+			buildConfigurationList = 063253EA2B6B031000E99423 /* Build configuration list for PBXProject "AllamAlphaNumericFunApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 063253E62B6B031000E99423;
+			packageReferences = (
+				067C9FA12B6B3A1D003FD18C /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				067C9FA42B6C6A10003FD18C /* XCRemoteSwiftPackageReference "AnimatedGradientView" */,
+			);
+			productRefGroup = 063253F02B6B031000E99423 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				063253EE2B6B031000E99423 /* AllamAlphaNumericFunApp */,
+				063254042B6B031100E99423 /* AllamAlphaNumericFunAppTests */,
+				0632540E2B6B031100E99423 /* AllamAlphaNumericFunAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		063253ED2B6B031000E99423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063253FF2B6B031100E99423 /* LaunchScreen.storyboard in Resources */,
+				063253FC2B6B031100E99423 /* Assets.xcassets in Resources */,
+				063253FA2B6B031000E99423 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		063254032B6B031100E99423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0632540D2B6B031100E99423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		063253EB2B6B031000E99423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067C9FA02B6B2E3A003FD18C /* AlphaNumericFunVC.swift in Sources */,
+				063253F32B6B031000E99423 /* AppDelegate.swift in Sources */,
+				063253F52B6B031000E99423 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		063254012B6B031100E99423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0632540A2B6B031100E99423 /* AllamAlphaNumericFunAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0632540B2B6B031100E99423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063254142B6B031100E99423 /* AllamAlphaNumericFunAppUITests.swift in Sources */,
+				063254162B6B031100E99423 /* AllamAlphaNumericFunAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		063254072B6B031100E99423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 063253EE2B6B031000E99423 /* AllamAlphaNumericFunApp */;
+			targetProxy = 063254062B6B031100E99423 /* PBXContainerItemProxy */;
+		};
+		063254112B6B031100E99423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 063253EE2B6B031000E99423 /* AllamAlphaNumericFunApp */;
+			targetProxy = 063254102B6B031100E99423 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		063253F82B6B031000E99423 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				063253F92B6B031000E99423 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		063253FD2B6B031100E99423 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				063253FE2B6B031100E99423 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		063254172B6B031100E99423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		063254182B6B031100E99423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0632541A2B6B031100E99423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AllamAlphaNumericFunApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.spring24.cs44643.sec04.AllamAlphaNumericFunApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0632541B2B6B031100E99423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AllamAlphaNumericFunApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.spring24.cs44643.sec04.AllamAlphaNumericFunApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0632541D2B6B031100E99423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.spring24.cs44643.sec04.AllamAlphaNumericFunAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AllamAlphaNumericFunApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AllamAlphaNumericFunApp";
+			};
+			name = Debug;
+		};
+		0632541E2B6B031100E99423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.spring24.cs44643.sec04.AllamAlphaNumericFunAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AllamAlphaNumericFunApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AllamAlphaNumericFunApp";
+			};
+			name = Release;
+		};
+		063254202B6B031100E99423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.spring24.cs44643.sec04.AllamAlphaNumericFunAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AllamAlphaNumericFunApp;
+			};
+			name = Debug;
+		};
+		063254212B6B031100E99423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.spring24.cs44643.sec04.AllamAlphaNumericFunAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AllamAlphaNumericFunApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		063253EA2B6B031000E99423 /* Build configuration list for PBXProject "AllamAlphaNumericFunApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				063254172B6B031100E99423 /* Debug */,
+				063254182B6B031100E99423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		063254192B6B031100E99423 /* Build configuration list for PBXNativeTarget "AllamAlphaNumericFunApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0632541A2B6B031100E99423 /* Debug */,
+				0632541B2B6B031100E99423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0632541C2B6B031100E99423 /* Build configuration list for PBXNativeTarget "AllamAlphaNumericFunAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0632541D2B6B031100E99423 /* Debug */,
+				0632541E2B6B031100E99423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0632541F2B6B031100E99423 /* Build configuration list for PBXNativeTarget "AllamAlphaNumericFunAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				063254202B6B031100E99423 /* Debug */,
+				063254212B6B031100E99423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		067C9FA12B6B3A1D003FD18C /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.0;
+			};
+		};
+		067C9FA42B6C6A10003FD18C /* XCRemoteSwiftPackageReference "AnimatedGradientView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rwbutler/AnimatedGradientView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		067C9FA22B6B3A1D003FD18C /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 067C9FA12B6B3A1D003FD18C /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		067C9FA52B6C6A10003FD18C /* AnimatedGradientView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 067C9FA42B6C6A10003FD18C /* XCRemoteSwiftPackageReference "AnimatedGradientView" */;
+			productName = AnimatedGradientView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 063253E72B6B031000E99423 /* Project object */;
+}
